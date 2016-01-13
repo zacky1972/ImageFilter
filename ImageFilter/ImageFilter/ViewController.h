@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property NSDictionary *button2Image;
+@property UIImageView *imageView;
+
+
+- (IBAction)setImage:(id)sender;
 
 @end
 

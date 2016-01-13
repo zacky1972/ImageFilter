@@ -15,6 +15,8 @@
 		95F4D6B91C46938600E7264D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F4D6B71C46938600E7264D /* LaunchScreen.storyboard */; };
 		95F4D6C41C46938600E7264D /* ImageFilterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F4D6C31C46938600E7264D /* ImageFilterTests.m */; };
 		95F4D6CF1C46938600E7264D /* ImageFilterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F4D6CE1C46938600E7264D /* ImageFilterUITests.m */; };
+		95F4D6DE1C46944900E7264D /* lena_spnoise.ppm in Resources */ = {isa = PBXBuildFile; fileRef = 95F4D6DC1C46944900E7264D /* lena_spnoise.ppm */; };
+		95F4D6DF1C46944900E7264D /* lena256.ppm in Resources */ = {isa = PBXBuildFile; fileRef = 95F4D6DD1C46944900E7264D /* lena256.ppm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		95F4D6CA1C46938600E7264D /* ImageFilterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageFilterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F4D6CE1C46938600E7264D /* ImageFilterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageFilterUITests.m; sourceTree = "<group>"; };
 		95F4D6D01C46938700E7264D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F4D6DC1C46944900E7264D /* lena_spnoise.ppm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lena_spnoise.ppm; sourceTree = "<group>"; };
+		95F4D6DD1C46944900E7264D /* lena256.ppm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lena256.ppm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				95F4D6B51C46938600E7264D /* Assets.xcassets */,
 				95F4D6B71C46938600E7264D /* LaunchScreen.storyboard */,
 				95F4D6BA1C46938600E7264D /* Info.plist */,
+				95F4D6DC1C46944900E7264D /* lena_spnoise.ppm */,
+				95F4D6DD1C46944900E7264D /* lena256.ppm */,
 				95F4D6A91C46938600E7264D /* Supporting Files */,
 			);
 			path = ImageFilter;
@@ -246,6 +252,8 @@
 				95F4D6B91C46938600E7264D /* LaunchScreen.storyboard in Resources */,
 				95F4D6B61C46938600E7264D /* Assets.xcassets in Resources */,
 				95F4D6B41C46938600E7264D /* Main.storyboard in Resources */,
+				95F4D6DE1C46944900E7264D /* lena_spnoise.ppm in Resources */,
+				95F4D6DF1C46944900E7264D /* lena256.ppm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

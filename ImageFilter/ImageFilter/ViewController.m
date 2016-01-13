@@ -16,12 +16,30 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    _button2Image = [NSDictionary dictionaryWithObjectsAndKeys:
+            [UIImage imageNamed:@"lena256.ppm"], @"Image 1",
+            [UIImage imageNamed:@"lena_spnoise.ppm"], @"Image 2",
+            nil];
+    _imageView = [[UIImageView alloc]initWithFrame:CGRectMake(10, 20, 300, 300)];
+    [self.view addSubview:_imageView];
+    [self changeCurrentImage:@"Image 1"];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)changeCurrentImage:(NSString *)buttonName {
+    _imageView.image = (UIImage *)[_button2Image objectForKey:buttonName];
+}
+
+- (IBAction)setImage:(id)sender {
+    if([sender isKindOfClass:[UIButton class]]) {
+        UIButton *button = (UIButton *)sender;
+        [self changeCurrentImage:button.currentTitle];
+    }
 }
 
 @end
