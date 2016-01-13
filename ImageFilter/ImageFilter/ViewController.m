@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "MonoFilter.h"
+
 @interface ViewController ()
 
 @end
@@ -21,9 +23,14 @@
             [UIImage imageNamed:@"lena256.ppm"], @"Image 1",
             [UIImage imageNamed:@"lena_spnoise.ppm"], @"Image 2",
             nil];
+    [self initFilter];
     _imageView = [[UIImageView alloc]initWithFrame:CGRectMake(10, 20, 300, 300)];
     [self.view addSubview:_imageView];
     [self changeCurrentImage:@"Image 1"];
+}
+
+-(void)initFilter {
+    _filter = [Filter new];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -31,8 +38,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)updateImage {
+    _imageView.image = [_filter convert:_currentImage];
+}
+
 - (void)changeCurrentImage:(NSString *)buttonName {
-    _imageView.image = (UIImage *)[_button2Image objectForKey:buttonName];
+    _currentImage = (UIImage *)[_button2Image objectForKey:buttonName];
+    [self updateImage];
 }
 
 - (IBAction)setImage:(id)sender {
@@ -41,5 +53,16 @@
         [self changeCurrentImage:button.currentTitle];
     }
 }
+
+- (IBAction)resetFilter:(id)sender {
+    [self initFilter];
+    [self updateImage];
+}
+
+- (IBAction)setMonoFilter:(id)sender {
+    _filter = [MonoFilter new];
+    [self updateImage];
+}
+
 
 @end

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95680C461C46ACB2008777D5 /* Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 95680C451C46ACB2008777D5 /* Filter.m */; };
+		95680C491C46AF51008777D5 /* MonoFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 95680C481C46AF51008777D5 /* MonoFilter.m */; };
 		95F4D6AB1C46938600E7264D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F4D6AA1C46938600E7264D /* main.m */; };
 		95F4D6AE1C46938600E7264D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F4D6AD1C46938600E7264D /* AppDelegate.m */; };
 		95F4D6B11C46938600E7264D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F4D6B01C46938600E7264D /* ViewController.m */; };
@@ -37,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		95680C441C46ACB2008777D5 /* Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Filter.h; sourceTree = "<group>"; };
+		95680C451C46ACB2008777D5 /* Filter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Filter.m; sourceTree = "<group>"; };
+		95680C471C46AF51008777D5 /* MonoFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonoFilter.h; sourceTree = "<group>"; };
+		95680C481C46AF51008777D5 /* MonoFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonoFilter.m; sourceTree = "<group>"; };
 		95F4D6A61C46938600E7264D /* ImageFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F4D6AA1C46938600E7264D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		95F4D6AC1C46938600E7264D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,12 +116,16 @@
 				95F4D6AF1C46938600E7264D /* ViewController.h */,
 				95F4D6B01C46938600E7264D /* ViewController.m */,
 				95F4D6B21C46938600E7264D /* Main.storyboard */,
+				95680C471C46AF51008777D5 /* MonoFilter.h */,
+				95680C481C46AF51008777D5 /* MonoFilter.m */,
 				95F4D6B51C46938600E7264D /* Assets.xcassets */,
 				95F4D6B71C46938600E7264D /* LaunchScreen.storyboard */,
 				95F4D6BA1C46938600E7264D /* Info.plist */,
 				95F4D6DC1C46944900E7264D /* lena_spnoise.ppm */,
 				95F4D6DD1C46944900E7264D /* lena256.ppm */,
 				95F4D6A91C46938600E7264D /* Supporting Files */,
+				95680C441C46ACB2008777D5 /* Filter.h */,
+				95680C451C46ACB2008777D5 /* Filter.m */,
 			);
 			path = ImageFilter;
 			sourceTree = "<group>";
@@ -279,8 +289,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				95F4D6B11C46938600E7264D /* ViewController.m in Sources */,
+				95680C461C46ACB2008777D5 /* Filter.m in Sources */,
 				95F4D6AE1C46938600E7264D /* AppDelegate.m in Sources */,
 				95F4D6AB1C46938600E7264D /* main.m in Sources */,
+				95680C491C46AF51008777D5 /* MonoFilter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +516,7 @@
 				95F4D6D51C46938700E7264D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95F4D6D61C46938700E7264D /* Build configuration list for PBXNativeTarget "ImageFilterTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +525,7 @@
 				95F4D6D81C46938700E7264D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95F4D6D91C46938700E7264D /* Build configuration list for PBXNativeTarget "ImageFilterUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +534,7 @@
 				95F4D6DB1C46938700E7264D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -18,14 +18,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lxx-Ci-bxD">
-                                <rect key="frame" x="181" y="428" width="87" height="30"/>
+                                <rect key="frame" x="175" y="353" width="87" height="30"/>
                                 <state key="normal" title="Image 1"/>
                                 <connections>
                                     <action selector="setImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FYE-1o-H3E"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gs0-um-GbM">
+                                <rect key="frame" x="115" y="352" width="46" height="30"/>
+                                <state key="normal" title="Reset"/>
+                                <connections>
+                                    <action selector="resetFilter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cIE-iw-FZV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ydv-sh-LcV">
+                                <rect key="frame" x="112" y="390" width="53" height="30"/>
+                                <state key="normal" title="Mono"/>
+                                <connections>
+                                    <action selector="setMonoFilter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n2H-tA-UWf"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QVO-U0-QRM">
-                                <rect key="frame" x="181" y="466" width="87" height="30"/>
+                                <rect key="frame" x="175" y="390" width="87" height="30"/>
                                 <state key="normal" title="Image 2"/>
                                 <connections>
                                     <action selector="setImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hso-1i-FAf"/>
