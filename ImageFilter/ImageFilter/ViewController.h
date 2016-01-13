@@ -13,6 +13,7 @@
 @property NSDictionary *button2Image;
 @property UIImageView *imageView;
 
+- (void)changeCurrentImage:(NSString *)buttonName;
 
 - (IBAction)setImage:(id)sender;
 
