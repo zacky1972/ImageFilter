@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 #import "MonoFilter.h"
+#import "ContrastFilter.h"
 
 @interface ViewController ()
 
@@ -61,6 +62,11 @@
 
 - (IBAction)setMonoFilter:(id)sender {
     _filter = [MonoFilter new];
+    [self updateImage];
+}
+
+- (IBAction)setContrastFilter:(id)sender {
+    _filter = [ContrastFilter new];
     [self updateImage];
 }
 

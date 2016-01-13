@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		955B19EF1C46FD2C001D31AB /* ContrastFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 955B19EE1C46FD2C001D31AB /* ContrastFilter.m */; };
 		95680C461C46ACB2008777D5 /* Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 95680C451C46ACB2008777D5 /* Filter.m */; };
 		95680C491C46AF51008777D5 /* MonoFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 95680C481C46AF51008777D5 /* MonoFilter.m */; };
 		95F4D6AB1C46938600E7264D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F4D6AA1C46938600E7264D /* main.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		955B19ED1C46FD2C001D31AB /* ContrastFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContrastFilter.h; sourceTree = "<group>"; };
+		955B19EE1C46FD2C001D31AB /* ContrastFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContrastFilter.m; sourceTree = "<group>"; };
 		95680C441C46ACB2008777D5 /* Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Filter.h; sourceTree = "<group>"; };
 		95680C451C46ACB2008777D5 /* Filter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Filter.m; sourceTree = "<group>"; };
 		95680C471C46AF51008777D5 /* MonoFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonoFilter.h; sourceTree = "<group>"; };
@@ -126,6 +129,8 @@
 				95F4D6A91C46938600E7264D /* Supporting Files */,
 				95680C441C46ACB2008777D5 /* Filter.h */,
 				95680C451C46ACB2008777D5 /* Filter.m */,
+				955B19ED1C46FD2C001D31AB /* ContrastFilter.h */,
+				955B19EE1C46FD2C001D31AB /* ContrastFilter.m */,
 			);
 			path = ImageFilter;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95F4D6B11C46938600E7264D /* ViewController.m in Sources */,
+				955B19EF1C46FD2C001D31AB /* ContrastFilter.m in Sources */,
 				95680C461C46ACB2008777D5 /* Filter.m in Sources */,
 				95F4D6AE1C46938600E7264D /* AppDelegate.m in Sources */,
 				95F4D6AB1C46938600E7264D /* main.m in Sources */,

@@ -24,5 +24,7 @@
 
 - (IBAction)setMonoFilter:(id)sender;
 
+- (IBAction)setContrastFilter:(id)sender;
+
 @end
 
