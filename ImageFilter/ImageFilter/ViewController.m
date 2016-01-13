@@ -57,12 +57,12 @@
     [self updateImage];
 }
 
-- (IBAction)setMonoFilter:(id)sender {
+- (IBAction)addMonoFilter:(id)sender {
     [_filter add:[MonoFilter new]];
     [self updateImage];
 }
 
-- (IBAction)setContrastFilter:(id)sender {
+- (IBAction)addContrastFilter:(id)sender {
     [_filter add:[ContrastFilter new]];
     [self updateImage];
 }

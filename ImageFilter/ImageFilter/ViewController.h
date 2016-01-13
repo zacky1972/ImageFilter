@@ -22,9 +22,9 @@
 
 - (IBAction)resetFilter:(id)sender;
 
-- (IBAction)setMonoFilter:(id)sender;
+- (IBAction)addMonoFilter:(id)sender;
 
-- (IBAction)setContrastFilter:(id)sender;
+- (IBAction)addContrastFilter:(id)sender;
 
 @end
 
