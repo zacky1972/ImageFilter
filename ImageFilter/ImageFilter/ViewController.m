@@ -10,6 +10,7 @@
 
 #import "MonoFilter.h"
 #import "ContrastFilter.h"
+#import "ConpositeFilter.h"
 
 @interface ViewController ()
 
@@ -24,14 +25,10 @@
             [UIImage imageNamed:@"lena256.ppm"], @"Image 1",
             [UIImage imageNamed:@"lena_spnoise.ppm"], @"Image 2",
             nil];
-    [self initFilter];
+    _filter = [ConpositeFilter new];
     _imageView = [[UIImageView alloc]initWithFrame:CGRectMake(10, 20, 300, 300)];
     [self.view addSubview:_imageView];
     [self changeCurrentImage:@"Image 1"];
-}
-
--(void)initFilter {
-    _filter = [Filter new];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -56,17 +53,17 @@
 }
 
 - (IBAction)resetFilter:(id)sender {
-    [self initFilter];
+    [_filter clear];
     [self updateImage];
 }
 
 - (IBAction)setMonoFilter:(id)sender {
-    _filter = [MonoFilter new];
+    [_filter add:[MonoFilter new]];
     [self updateImage];
 }
 
 - (IBAction)setContrastFilter:(id)sender {
-    _filter = [ContrastFilter new];
+    [_filter add:[ContrastFilter new]];
     [self updateImage];
 }
 

@@ -33,7 +33,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ydv-sh-LcV">
                                 <rect key="frame" x="112" y="390" width="53" height="30"/>
-                                <state key="normal" title="Mono"/>
+                                <state key="normal" title="+Mono"/>
                                 <connections>
                                     <action selector="setMonoFilter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n2H-tA-UWf"/>
                                 </connections>
@@ -46,8 +46,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tz4-JC-yLA">
-                                <rect key="frame" x="108" y="436" width="61" height="30"/>
-                                <state key="normal" title="Contrast"/>
+                                <rect key="frame" x="105" y="436" width="69" height="30"/>
+                                <state key="normal" title="+Contrast"/>
                                 <connections>
                                     <action selector="setContrastFilter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x6e-zS-wl1"/>
                                 </connections>

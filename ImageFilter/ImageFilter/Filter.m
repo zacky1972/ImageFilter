@@ -34,6 +34,12 @@
                           CGImageGetRenderingIntent(image.CGImage))];
 }
 
+-(void)add:(Filter *)filter {
+}
+
+-(void)clear {
+}
+
 -(void)work:(UInt8 *)pixelPointer {
 }
 
