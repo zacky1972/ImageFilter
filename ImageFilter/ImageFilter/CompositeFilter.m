@@ -18,10 +18,9 @@
 }
 
 -(UIImage *)convert:(UIImage *)image {
-    for(id object in filters) {
-        if([object isKindOfClass:[Filter class]]) {
-            Filter *filter = (Filter *)object;
-            image = [filter convert: image];
+    for(id filter in filters) {
+        if([filter isKindOfClass:[Filter class]]) {
+            image = [filter convert:image];
         }
     }
     return image;
