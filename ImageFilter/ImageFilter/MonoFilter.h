@@ -10,7 +10,5 @@
 
 @interface MonoFilter : Filter
 
--(void)work:(UInt8 *)pixelPointer;
-
 
 @end

@@ -12,8 +12,4 @@
     NSMutableArray *filters;
 }
 
--(UIImage *)convert:(UIImage *)image;
-
--(void)add:(Filter *)filter;
-
 @end

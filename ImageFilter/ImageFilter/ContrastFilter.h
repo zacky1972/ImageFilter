@@ -10,6 +10,4 @@
 
 @interface ContrastFilter : Filter
 
--(void)work:(UInt8 *)pixelPointer;
-
 @end
