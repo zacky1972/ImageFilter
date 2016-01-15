@@ -8,7 +8,7 @@
 
 #import "CompositeFilter.h"
 
-@implementation CompositeFilter
+@implementation CompositeFilter // Composite Pattern
 
 -(id)init {
     if(self = [super init]) {
@@ -18,8 +18,9 @@
 }
 
 -(UIImage *)convert:(UIImage *)image {
-    for(id filter in filters) {
+    for(id filter in filters) { // Iterator Pattern
         if([filter isKindOfClass:[Filter class]]) {
+            // 取り出した要素が Filter クラスもしくはそのサブクラスのインスタンスであることを確認して convert を呼び出す
             image = [filter convert:image];
         }
     }
