@@ -6,9 +6,9 @@
 //  Copyright © 2016年 zacky1972. All rights reserved.
 //
 
-#import "ConpositeFilter.h"
+#import "CompositeFilter.h"
 
-@implementation ConpositeFilter
+@implementation CompositeFilter
 
 -(id)init {
     if(self = [super init]) {

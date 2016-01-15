@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		955B19EF1C46FD2C001D31AB /* ContrastFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 955B19EE1C46FD2C001D31AB /* ContrastFilter.m */; };
-		955B19F21C470086001D31AB /* ConpositeFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 955B19F11C470086001D31AB /* ConpositeFilter.m */; };
+		955B19F21C470086001D31AB /* CompositeFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 955B19F11C470086001D31AB /* CompositeFilter.m */; };
 		95680C461C46ACB2008777D5 /* Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 95680C451C46ACB2008777D5 /* Filter.m */; };
 		95680C491C46AF51008777D5 /* MonoFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 95680C481C46AF51008777D5 /* MonoFilter.m */; };
 		95F4D6AB1C46938600E7264D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F4D6AA1C46938600E7264D /* main.m */; };
@@ -43,8 +43,8 @@
 /* Begin PBXFileReference section */
 		955B19ED1C46FD2C001D31AB /* ContrastFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContrastFilter.h; sourceTree = "<group>"; };
 		955B19EE1C46FD2C001D31AB /* ContrastFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContrastFilter.m; sourceTree = "<group>"; };
-		955B19F01C470086001D31AB /* ConpositeFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConpositeFilter.h; sourceTree = "<group>"; };
-		955B19F11C470086001D31AB /* ConpositeFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConpositeFilter.m; sourceTree = "<group>"; };
+		955B19F01C470086001D31AB /* CompositeFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompositeFilter.h; sourceTree = "<group>"; };
+		955B19F11C470086001D31AB /* CompositeFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompositeFilter.m; sourceTree = "<group>"; };
 		95680C441C46ACB2008777D5 /* Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Filter.h; sourceTree = "<group>"; };
 		95680C451C46ACB2008777D5 /* Filter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Filter.m; sourceTree = "<group>"; };
 		95680C471C46AF51008777D5 /* MonoFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonoFilter.h; sourceTree = "<group>"; };
@@ -121,8 +121,8 @@
 				95F4D6AD1C46938600E7264D /* AppDelegate.m */,
 				95F4D6AF1C46938600E7264D /* ViewController.h */,
 				95F4D6B01C46938600E7264D /* ViewController.m */,
-				955B19F01C470086001D31AB /* ConpositeFilter.h */,
-				955B19F11C470086001D31AB /* ConpositeFilter.m */,
+				955B19F01C470086001D31AB /* CompositeFilter.h */,
+				955B19F11C470086001D31AB /* CompositeFilter.m */,
 				95F4D6B21C46938600E7264D /* Main.storyboard */,
 				95680C471C46AF51008777D5 /* MonoFilter.h */,
 				95680C481C46AF51008777D5 /* MonoFilter.m */,
@@ -298,7 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				955B19F21C470086001D31AB /* ConpositeFilter.m in Sources */,
+				955B19F21C470086001D31AB /* CompositeFilter.m in Sources */,
 				95F4D6B11C46938600E7264D /* ViewController.m in Sources */,
 				955B19EF1C46FD2C001D31AB /* ContrastFilter.m in Sources */,
 				95680C461C46ACB2008777D5 /* Filter.m in Sources */,

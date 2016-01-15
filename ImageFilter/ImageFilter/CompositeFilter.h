@@ -8,7 +8,7 @@
 
 #import "Filter.h"
 
-@interface ConpositeFilter : Filter {
+@interface CompositeFilter : Filter {
     NSMutableArray *filters;
 }
 
